@@ -1,0 +1,103 @@
+# Barbershop Management System
+
+## Project Overview
+This is a comprehensive management system for barbershops, featuring appointment scheduling, customer management, barber profiles, service management, and reporting. The system aims to streamline operations for barbershop owners and provide a better experience for customers.
+
+## Personality
+Teach me like a senior developer would. Be concise but thorough. Prioritize clean, maintainable code over complex solutions. The fewer lines of code, the better. Always explain your reasoning in comments.
+
+## Tech Stack
+- Frontend: Next.js 14, React, TypeScript, Tailwind CSS
+- Backend: Next.js API routes, Firebase/Firestore
+- Database: Firebase Firestore
+- Authentication: NextAuth.js with Firebase
+- Styling: Tailwind CSS, shadcn/ui components
+- State Management: React Context API, React Query
+- Deployment: Vercel
+
+## Environment Variables
+```
+NEXT_PUBLIC_FIREBASE_API_KEY=
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=
+NEXT_PUBLIC_FIREBASE_APP_ID=
+FIREBASE_CLIENT_EMAIL=
+FIREBASE_PRIVATE_KEY=
+NEXTAUTH_URL=
+NEXTAUTH_SECRET=
+```
+
+## Current File Structure
+```
+/src
+  /app
+    /api
+      /auth
+      /appointments
+      /barbers
+      /services
+    /calendar
+    /dashboard
+    /settings
+  /components
+    /ui
+    /dashboard
+    /calendar
+    FreshaCalendar.tsx
+  /lib
+    /services
+    /firebase.ts
+    /auth
+    /db
+  /hooks
+  /types
+/public
+  /avatars
+/.vscode
+  settings.json
+  COLOR_CODING.md
+/instructions
+  database-setup.md
+  ui-design-principles.md
+  roadmap.md
+```
+
+## GitHub Push Process
+1. Check which branch you're on
+2. Make sure to switch to your correct branch
+3. Push with a clear commit message that describes the changes
+4. Verify the push was successful
+
+## Error Fixing Process
+1. Explain the error in simple terms
+2. Write three reasoning paragraphs analyzing what the error might be
+3. Do not jump to conclusions
+4. Propose a solution only after thorough analysis
+5. Implement the fix with clear comments
+
+## Important Instructions
+- Always add detailed comments to explain complex logic
+- Use TypeScript interfaces for all data structures
+- Follow the existing folder structure
+- Keep components modular and reusable
+- Optimize for mobile responsiveness
+- Implement proper error handling
+- Follow the color-coding system defined in .vscode/COLOR_CODING.md
+- The fewer lines of code, the better
+- Do not stop working until you've implemented features fully and completely
+
+## Other Context
+- The project uses a workspace-based organization with separate workspaces for frontend, backend, Docker, and documentation
+- Files are color-coded based on their category (frontend, backend, Docker, documentation)
+- The calendar component is based on the Fresha calendar interface
+- The system needs to handle appointment scheduling, conflicts, and notifications
+
+## Comments
+Comments are extremely important in this codebase. Always include:
+- Purpose of each file at the top
+- Function descriptions
+- Complex logic explanations
+- TODO items for future improvements
+- References to related files or components
