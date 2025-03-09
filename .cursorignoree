@@ -1,0 +1,56 @@
+# .cursorignoree - Files that Cursor should not modify
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.example
+
+# Generated files
+node_modules/
+.next/
+dist/
+build/
+out/
+coverage/
+.coverage/
+.cache/
+
+# Large data files
+*.csv
+*.json
+*.xml
+*.sql
+*.db
+
+# Binary files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.ico
+*.svg
+*.pdf
+*.zip
+*.tar.gz
+*.mp3
+*.mp4
+*.woff
+*.woff2
+*.ttf
+*.eot
+
+# Sensitive files
+**/credentials*.json
+**/key*.json
+**/secret*.json
+**/service-account*.json
+*.pem
+*.key
+*.cert
+
+# Specific project files that should not be modified
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
